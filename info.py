@@ -37,8 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "mallumoviezbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/SL_Bots_Support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/SL_Bots_Updates')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/rithikclicks')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/malluottrelease')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
