@@ -26,7 +26,7 @@ auth_users = [int(auth_users) if id_pattern.search(auth_users) else auth_users f
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # Channels
-INDEX_CHANNELS = [int(index_channels) if id_pattern.search(index_channels) else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1001674948137').split()]
+INDEX_CHANNELS = [int(index_channels) if id_pattern.search(index_channels) else index_channels for index_channels in environ.get('-1001674948137', '-1001674948137').split()]
 auth_channel = environ.get('AUTH_CHANNEL', '-1001754886821')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001959250376'))
@@ -58,7 +58,7 @@ FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = environ.get("SHORTLINK_API", "")
-WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
+WELCOME_TEXT = environ.get("WELCOME_TEXT", "ഹൈ ലൊട്ടെ {mention} 👋🏻 , Welcome to {title} group! , നിങ്ങൾക്ക് വേണ്ട മൂവി ഇവിടെ ടൈപ്പ് ചെയ്ത് അയക്കു... ഞാൻ അത് ഒപ്പിച്ച് തരാം 🤙🏻)
                            
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
