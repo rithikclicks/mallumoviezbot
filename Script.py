@@ -1,11 +1,13 @@
 class script(object):
     START_TXT = """👋 Hello {},
 
-I can give any Movie and TV Series to auto filter method. 🥳
+നിങ്ങൾക്ക് വേണ്ട മൂവീസ് എനിക്ക് തരാൻ സാധിക്കും 🥳
 
-All you have to do is add me to a group and give me admin. 😌
+If you want to request movies use inline search option 🪄
 
-I will take care of the rest. 😎"""
+നിങ്ങളുടെ ഗ്രൂപ്പുകളിൽ എന്നെ add ആക്കിയാൽ എനിക്ക് അവിടെയും മൂവി തരാൻ കഴിയും [ Need Admin permission ]😌
+
+Bot Maximum നിങ്ങളുടെ കൂട്ടുകാർക്ക് share ചെയ്യൂ 😎"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
