@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'thoppimoviebot')
 API_ID = int(environ.get('API_ID', '29441782'))
 API_HASH = environ.get('API_HASH', 'fcd2518e068b5a42cd8fa40bdb76302a')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6255291464:AAErDxHIu9IZ4oymPlQOfg0Pl2DXaxo-GnY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6255291464:AAE0r9Kh7I2RcRg4AHoo53Bqg0m5GO5GpcQ')
 
 # Bot pics and stickers
 STICKERS = (environ.get('STICKERS', '')).split()
