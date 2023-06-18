@@ -58,8 +58,8 @@ FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = environ.get("SHORTLINK_API", "")
-WELCOME_TEXT = environ.get("WELCOME_TEXT", "ഹൈ ലൊട്ടെ {mention} 👋🏻 , Welcome to {title} group! , നിങ്ങൾക്ക് വേണ്ട മൂവി ഇവിടെ ടൈപ്പ് ചെയ്ത് അയക്കു... ഞാൻ അത് ഒപ്പിച്ച് തരാം 🤙🏻)
-                           
+WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")           
+
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("AUTO_FILTER is enabled.\n" if AUTO_FILTER else "AUTO_FILTER is disabled.\n")
